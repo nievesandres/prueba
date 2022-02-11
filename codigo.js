@@ -6,6 +6,6 @@
 		alert('clickado');
 		
 	let h1 = document.createElement('h1')
-		h1.innerHTML = `<h1>Nuevo titulo</h1>`;
+		h1.innerHTML = `Nuevo titulo`;
 		contenedor.append(h1);
 	})
