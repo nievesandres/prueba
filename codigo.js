@@ -4,8 +4,7 @@
 
 	boton.addEventListener('click',()=>{
 		alert('clickado');
-		
-	let h1 = document.createElement('h1')
-		h1.innerHTML = `Nuevo titulo`;
-		contenedor.append(h1);
+		contenedor.insertAdjacentHTML('beforeend',`
+				<h1>Nuevo titulo con insertAdjacent</h1>
+		`);
 	})
